@@ -106,9 +106,17 @@
 		<a href="#slide-5" class="next-slide"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0" y="0" width="32" height="32" viewBox="0, 0, 32, 32" id="arrow-right"><g id="Layer_1"><path d="M19.026,15.996 L19.026,15.996 L19.026,15.996 L7.078,3.556 C6.778,3.249 6.785,2.741 7.093,2.427 L9.229,0.24 C9.536,-0.074 10.037,-0.081 10.337,0.226 L24.928,15.425 C25.085,15.582 25.157,15.796 25.142,16.004 C25.15,16.218 25.078,16.425 24.928,16.582 L10.337,31.774 C10.037,32.081 9.536,32.074 9.229,31.76 L7.093,29.573 C6.785,29.259 6.778,28.751 7.078,28.444 L19.026,15.996 z" fill="#77878B" id="if_icon-chevron-right_211647"/></g></svg></a>
 	</nav>
 	
-	<h1 class="width-1 text-red">Use flexbox</h1>
-	<div class="width-1">
+	<h1 class="width-1 red">Use flexbox</h1>
+	<div class="width-1 lightgray">
 		<p>Flexbox is the easiest and coolest way to do layouts today. No more floats, margin hacks and absolute positioning. Fast rendering and native animation.</p>
+<pre>
+#section {
+	display: flex; 
+	flex-flow: column nowrap; 
+	justify-content: center; 
+	align-items: center;
+}
+</pre>			
 	</div>
 		
 </section>
@@ -145,13 +153,11 @@
 	
 	<h1 class="width-1 text-red">Use selectors</h1>
 	<div class="width-1">
-		<p>Get smart with your selectors!</p>
+		<p>Get smart with your selectors! But don't forget they are slow.</p>
 		<ul>
-			<li><strong>:not()</strong> </li>
-			<li>VW and VH - when percentages do not work</li>
-			<li>CALC lets you do anything. 
-				<pre> width: calc( 50vw - 4.5rem );</pre>
-			</li>
+			<li><strong>:not(.class)</strong> - sometimes it's easier to make a negative definition</li>
+			<li><strong>:target</strong> - can be used for modals, navigation, etc.</li>
+			<li><strong>:checked</strong> - forget JS form styling, you can style with pure CSS</li>
 		</ul>
 	</div>
 		
@@ -189,7 +195,5 @@
 		
 </section>
 
-<!-- Scripts -->
-<script src="assets/css.js"></script>
 </body>
 </html>
