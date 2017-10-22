@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="bg">
+<head>
+	<!-- Basic -->
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- Title & Meta -->
+	<title>How To Do Quality CSS</title>
+
+	<!-- Stylesheets -->
+	<link rel="stylesheet" href="assets/tat.min.css?version=1.0">
+	<link rel="stylesheet" href="assets/tat-normalise.css">
+	<link rel="stylesheet" href="assets/style.css">
+	<!-- Fonts -->
+
+	<!-- JS -->
+</head>
+<body id="simulation" class="">
+
+<section id="slide-0" class="slide tat-c tat-middle tat-center padding-1">
+	
+	<h1 class="width-1-2 text-red">How To Do Quality CSS?</h1>
+	<h3 class="width-1-2 text-pink">and why?</h3>
+	<a href="#slide-1" class="top-1"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0" y="0" width="32" height="32" viewBox="0, 0, 32, 32" id="arrow-right"><g id="Layer_1"><path d="M19.026,15.996 L19.026,15.996 L19.026,15.996 L7.078,3.556 C6.778,3.249 6.785,2.741 7.093,2.427 L9.229,0.24 C9.536,-0.074 10.037,-0.081 10.337,0.226 L24.928,15.425 C25.085,15.582 25.157,15.796 25.142,16.004 C25.15,16.218 25.078,16.425 24.928,16.582 L10.337,31.774 C10.037,32.081 9.536,32.074 9.229,31.76 L7.093,29.573 C6.785,29.259 6.778,28.751 7.078,28.444 L19.026,15.996 z" fill="#77878B" id="if_icon-chevron-right_211647"/></g></svg>
+</a>
+		
+</section>
+
+<section id="slide-1" class="slide tat-c tat-middle tat-center padding-1">
+	
+	<nav class="slide-nav tat-r tat-middle">
+		<div class="tip-number red">#1</div>
+		<a href="#slide-0" class="prev-slide"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0" y="0" width="32" height="32" viewBox="0, 0, 32, 32" id="arrow-left"><g id="Layer_1"><path d="M12.974,16.004 L12.974,16.004 L12.974,16.004 L24.922,28.444 C25.222,28.751 25.215,29.259 24.907,29.573 L22.771,31.76 C22.464,32.074 21.963,32.081 21.663,31.774 L7.072,16.575 C6.915,16.418 6.843,16.204 6.858,15.996 C6.85,15.782 6.922,15.575 7.072,15.418 L21.663,0.226 C21.963,-0.081 22.464,-0.074 22.771,0.24 L24.907,2.427 C25.215,2.741 25.222,3.249 24.922,3.556 L12.974,16.004 z" fill="#77878B" id="if_icon-chevron-right_211647"/></g></svg></a>
+		<a href="#slide-2" class="next-slide"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0" y="0" width="32" height="32" viewBox="0, 0, 32, 32" id="arrow-right"><g id="Layer_1"><path d="M19.026,15.996 L19.026,15.996 L19.026,15.996 L7.078,3.556 C6.778,3.249 6.785,2.741 7.093,2.427 L9.229,0.24 C9.536,-0.074 10.037,-0.081 10.337,0.226 L24.928,15.425 C25.085,15.582 25.157,15.796 25.142,16.004 C25.15,16.218 25.078,16.425 24.928,16.582 L10.337,31.774 C10.037,32.081 9.536,32.074 9.229,31.76 L7.093,29.573 C6.785,29.259 6.778,28.751 7.078,28.444 L19.026,15.996 z" fill="#77878B" id="if_icon-chevron-right_211647"/></g></svg></a>
+	</nav>
+	
+	<h1 class="width-1 text-red">Abstract your CSS</h1>
+	<div class="width-1">
+		<p>Think like in PHP: logical division; do-no-repeat-yourself; etc.</p>
+		<ol>
+			<li>
+				<h5>Framework</h5>
+				Choose whatever you like
+			</li>
+			<li>
+				<h5>Base</h5>
+				Setting default view of inputs, headings, fonts, etc.
+			</li>
+			<li>
+				<h5>Modules</h5>
+				Things like modals, contact forms, header, footer
+			</li>
+			<li>
+				<h5>Sections</h5>
+				Last resort: content-specific CSS
+			</li>
+		</ol>
+	</div>
+		
+</section>
+
+<section id="slide-2" class="slide tat-c tat-middle tat-center padding-1">
+	
+	<nav class="slide-nav tat-r tat-middle">
+		<div class="tip-number red">#2</div>
+		<a href="#slide-1" class="prev-slide"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0" y="0" width="32" height="32" viewBox="0, 0, 32, 32" id="arrow-left"><g id="Layer_1"><path d="M12.974,16.004 L12.974,16.004 L12.974,16.004 L24.922,28.444 C25.222,28.751 25.215,29.259 24.907,29.573 L22.771,31.76 C22.464,32.074 21.963,32.081 21.663,31.774 L7.072,16.575 C6.915,16.418 6.843,16.204 6.858,15.996 C6.85,15.782 6.922,15.575 7.072,15.418 L21.663,0.226 C21.963,-0.081 22.464,-0.074 22.771,0.24 L24.907,2.427 C25.215,2.741 25.222,3.249 24.922,3.556 L12.974,16.004 z" fill="#77878B" id="if_icon-chevron-right_211647"/></g></svg></a>
+		<a href="#slide-3" class="next-slide"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0" y="0" width="32" height="32" viewBox="0, 0, 32, 32" id="arrow-right"><g id="Layer_1"><path d="M19.026,15.996 L19.026,15.996 L19.026,15.996 L7.078,3.556 C6.778,3.249 6.785,2.741 7.093,2.427 L9.229,0.24 C9.536,-0.074 10.037,-0.081 10.337,0.226 L24.928,15.425 C25.085,15.582 25.157,15.796 25.142,16.004 C25.15,16.218 25.078,16.425 24.928,16.582 L10.337,31.774 C10.037,32.081 9.536,32.074 9.229,31.76 L7.093,29.573 C6.785,29.259 6.778,28.751 7.078,28.444 L19.026,15.996 z" fill="#77878B" id="if_icon-chevron-right_211647"/></g></svg></a>
+	</nav>
+	
+	
+	<h1 class="width-1 text-red">Select by IDs and Classes</h1>
+	<div class="width-1">
+		<p>Browsers process CSS selector from end to start, so they search for every element, then apply next filter, and so on. This is why when you select by ID or class, the browser is much faster in applying the style.</p>
+<pre class="code">
+#section-social .content {
+	...
+}
+.social section div {
+	...
+}</pre>
+	</div>
+		
+</section>
+
+<section id="slide-3" class="slide tat-c tat-middle tat-center padding-1">
+	
+	<nav class="slide-nav tat-r tat-middle">
+		<div class="tip-number red">#3</div>
+		<a href="#slide-2" class="prev-slide"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0" y="0" width="32" height="32" viewBox="0, 0, 32, 32" id="arrow-left"><g id="Layer_1"><path d="M12.974,16.004 L12.974,16.004 L12.974,16.004 L24.922,28.444 C25.222,28.751 25.215,29.259 24.907,29.573 L22.771,31.76 C22.464,32.074 21.963,32.081 21.663,31.774 L7.072,16.575 C6.915,16.418 6.843,16.204 6.858,15.996 C6.85,15.782 6.922,15.575 7.072,15.418 L21.663,0.226 C21.963,-0.081 22.464,-0.074 22.771,0.24 L24.907,2.427 C25.215,2.741 25.222,3.249 24.922,3.556 L12.974,16.004 z" fill="#77878B" id="if_icon-chevron-right_211647"/></g></svg></a>
+		<a href="#slide-4" class="next-slide"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0" y="0" width="32" height="32" viewBox="0, 0, 32, 32" id="arrow-right"><g id="Layer_1"><path d="M19.026,15.996 L19.026,15.996 L19.026,15.996 L7.078,3.556 C6.778,3.249 6.785,2.741 7.093,2.427 L9.229,0.24 C9.536,-0.074 10.037,-0.081 10.337,0.226 L24.928,15.425 C25.085,15.582 25.157,15.796 25.142,16.004 C25.15,16.218 25.078,16.425 24.928,16.582 L10.337,31.774 C10.037,32.081 9.536,32.074 9.229,31.76 L7.093,29.573 C6.785,29.259 6.778,28.751 7.078,28.444 L19.026,15.996 z" fill="#77878B" id="if_icon-chevron-right_211647"/></g></svg></a>
+	</nav>
+	
+	<h1 class="width-1 text-red">Mobile First!</h1>
+	<div class="width-1">
+		<p>Mobile view has the simplest design and the larger the view - the more complex our layout becomes. If you do desktop first you will be making setting complex CSS rules and then disallowing them for mobile.</p>
+	</div>
+		
+</section>
+
+<section id="slide-4" class="slide tat-c tat-middle tat-center padding-1">
+	
+	<nav class="slide-nav tat-r tat-middle">
+		<div class="tip-number red">#4</div>
+		<a href="#slide-3" class="prev-slide"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0" y="0" width="32" height="32" viewBox="0, 0, 32, 32" id="arrow-left"><g id="Layer_1"><path d="M12.974,16.004 L12.974,16.004 L12.974,16.004 L24.922,28.444 C25.222,28.751 25.215,29.259 24.907,29.573 L22.771,31.76 C22.464,32.074 21.963,32.081 21.663,31.774 L7.072,16.575 C6.915,16.418 6.843,16.204 6.858,15.996 C6.85,15.782 6.922,15.575 7.072,15.418 L21.663,0.226 C21.963,-0.081 22.464,-0.074 22.771,0.24 L24.907,2.427 C25.215,2.741 25.222,3.249 24.922,3.556 L12.974,16.004 z" fill="#77878B" id="if_icon-chevron-right_211647"/></g></svg></a>
+		<a href="#slide-5" class="next-slide"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0" y="0" width="32" height="32" viewBox="0, 0, 32, 32" id="arrow-right"><g id="Layer_1"><path d="M19.026,15.996 L19.026,15.996 L19.026,15.996 L7.078,3.556 C6.778,3.249 6.785,2.741 7.093,2.427 L9.229,0.24 C9.536,-0.074 10.037,-0.081 10.337,0.226 L24.928,15.425 C25.085,15.582 25.157,15.796 25.142,16.004 C25.15,16.218 25.078,16.425 24.928,16.582 L10.337,31.774 C10.037,32.081 9.536,32.074 9.229,31.76 L7.093,29.573 C6.785,29.259 6.778,28.751 7.078,28.444 L19.026,15.996 z" fill="#77878B" id="if_icon-chevron-right_211647"/></g></svg></a>
+	</nav>
+	
+	<h1 class="width-1 text-red">Use flexbox</h1>
+	<div class="width-1">
+		<p>Flexbox is the easiest and coolest way to do layouts today. No more floats, margin hacks and absolute positioning. Fast rendering and native animation.</p>
+	</div>
+		
+</section>
+
+<section id="slide-5" class="slide tat-c tat-middle tat-center padding-1">
+	
+	<nav class="slide-nav tat-r tat-middle">
+		<div class="tip-number red">#5</div>
+		<a href="#slide-4" class="prev-slide"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0" y="0" width="32" height="32" viewBox="0, 0, 32, 32" id="arrow-left"><g id="Layer_1"><path d="M12.974,16.004 L12.974,16.004 L12.974,16.004 L24.922,28.444 C25.222,28.751 25.215,29.259 24.907,29.573 L22.771,31.76 C22.464,32.074 21.963,32.081 21.663,31.774 L7.072,16.575 C6.915,16.418 6.843,16.204 6.858,15.996 C6.85,15.782 6.922,15.575 7.072,15.418 L21.663,0.226 C21.963,-0.081 22.464,-0.074 22.771,0.24 L24.907,2.427 C25.215,2.741 25.222,3.249 24.922,3.556 L12.974,16.004 z" fill="#77878B" id="if_icon-chevron-right_211647"/></g></svg></a>
+		<a href="#slide-6" class="next-slide"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0" y="0" width="32" height="32" viewBox="0, 0, 32, 32" id="arrow-right"><g id="Layer_1"><path d="M19.026,15.996 L19.026,15.996 L19.026,15.996 L7.078,3.556 C6.778,3.249 6.785,2.741 7.093,2.427 L9.229,0.24 C9.536,-0.074 10.037,-0.081 10.337,0.226 L24.928,15.425 C25.085,15.582 25.157,15.796 25.142,16.004 C25.15,16.218 25.078,16.425 24.928,16.582 L10.337,31.774 C10.037,32.081 9.536,32.074 9.229,31.76 L7.093,29.573 C6.785,29.259 6.778,28.751 7.078,28.444 L19.026,15.996 z" fill="#77878B" id="if_icon-chevron-right_211647"/></g></svg></a>
+	</nav>
+	
+	<h1 class="width-1 text-red">Use <strong>rem</strong>, <strong>vw</strong>, <srong>vh</srong> and <strong>calc</strong></h1>
+	<div class="width-1">
+		<p>With the variety of display sizes, pixel density and usage habits pixels make no sense anymore. Use proportions to build your layouts, rather than pixels.</p>
+		<ul>
+			<li>REM units are perfect for font sizing and media queries.</li>
+			<li>VW and VH - when percentages do not work</li>
+			<li>CALC lets you do anything. 
+				<pre> width: calc( 50vw - 4.5rem );</pre>
+			</li>
+		</ul>
+	</div>
+		
+</section>
+
+<section id="slide-6" class="slide tat-c tat-middle tat-center padding-1">
+	
+	<nav class="slide-nav tat-r tat-middle">
+		<div class="tip-number red">#6</div>
+		<a href="#slide-5" class="prev-slide"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0" y="0" width="32" height="32" viewBox="0, 0, 32, 32" id="arrow-left"><g id="Layer_1"><path d="M12.974,16.004 L12.974,16.004 L12.974,16.004 L24.922,28.444 C25.222,28.751 25.215,29.259 24.907,29.573 L22.771,31.76 C22.464,32.074 21.963,32.081 21.663,31.774 L7.072,16.575 C6.915,16.418 6.843,16.204 6.858,15.996 C6.85,15.782 6.922,15.575 7.072,15.418 L21.663,0.226 C21.963,-0.081 22.464,-0.074 22.771,0.24 L24.907,2.427 C25.215,2.741 25.222,3.249 24.922,3.556 L12.974,16.004 z" fill="#77878B" id="if_icon-chevron-right_211647"/></g></svg></a>
+		<a href="#slide-7" class="next-slide"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0" y="0" width="32" height="32" viewBox="0, 0, 32, 32" id="arrow-right"><g id="Layer_1"><path d="M19.026,15.996 L19.026,15.996 L19.026,15.996 L7.078,3.556 C6.778,3.249 6.785,2.741 7.093,2.427 L9.229,0.24 C9.536,-0.074 10.037,-0.081 10.337,0.226 L24.928,15.425 C25.085,15.582 25.157,15.796 25.142,16.004 C25.15,16.218 25.078,16.425 24.928,16.582 L10.337,31.774 C10.037,32.081 9.536,32.074 9.229,31.76 L7.093,29.573 C6.785,29.259 6.778,28.751 7.078,28.444 L19.026,15.996 z" fill="#77878B" id="if_icon-chevron-right_211647"/></g></svg></a>
+	</nav>
+	
+	<h1 class="width-1 text-red">Use selectors</h1>
+	<div class="width-1">
+		<p>Get smart with your selectors!</p>
+		<ul>
+			<li><strong>:not()</strong> </li>
+			<li>VW and VH - when percentages do not work</li>
+			<li>CALC lets you do anything. 
+				<pre> width: calc( 50vw - 4.5rem );</pre>
+			</li>
+		</ul>
+	</div>
+		
+</section>
+
+<section id="slide-7" class="slide tat-c tat-middle tat-center padding-1">
+	
+	<nav class="slide-nav tat-r tat-middle">
+		<div class="tip-number red">#7</div>
+		<a href="#slide-6" class="prev-slide"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0" y="0" width="32" height="32" viewBox="0, 0, 32, 32" id="arrow-left"><g id="Layer_1"><path d="M12.974,16.004 L12.974,16.004 L12.974,16.004 L24.922,28.444 C25.222,28.751 25.215,29.259 24.907,29.573 L22.771,31.76 C22.464,32.074 21.963,32.081 21.663,31.774 L7.072,16.575 C6.915,16.418 6.843,16.204 6.858,15.996 C6.85,15.782 6.922,15.575 7.072,15.418 L21.663,0.226 C21.963,-0.081 22.464,-0.074 22.771,0.24 L24.907,2.427 C25.215,2.741 25.222,3.249 24.922,3.556 L12.974,16.004 z" fill="#77878B" id="if_icon-chevron-right_211647"/></g></svg></a>
+		<a href="#slide-0" class="next-slide"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0" y="0" width="32" height="32" viewBox="0, 0, 32, 32" id="arrow-right"><g id="Layer_1"><path d="M19.026,15.996 L19.026,15.996 L19.026,15.996 L7.078,3.556 C6.778,3.249 6.785,2.741 7.093,2.427 L9.229,0.24 C9.536,-0.074 10.037,-0.081 10.337,0.226 L24.928,15.425 C25.085,15.582 25.157,15.796 25.142,16.004 C25.15,16.218 25.078,16.425 24.928,16.582 L10.337,31.774 C10.037,32.081 9.536,32.074 9.229,31.76 L7.093,29.573 C6.785,29.259 6.778,28.751 7.078,28.444 L19.026,15.996 z" fill="#77878B" id="if_icon-chevron-right_211647"/></g></svg></a>
+	</nav>
+	
+	<h1 class="width-1 text-red">Use CSS animations</h1>
+	<div class="width-1">
+		<p>Don't do jQuery or JS animations = they are much slower and heavy for the browser. Use Javascript to change the element class and do native CSS animations.</p>
+		<ul>
+			<li>Do not <strong>transition: all</strong>
+				<pre>#element { transition: background-color 0.3s ease, width 0.3s 0.3s ease; }</pre>
+			</li>
+			<li>Keyframes:
+				<div class="spinner"></div>
+<pre>@keyframes spin { 
+  100% { transform: rotate(360deg);} 
+} 
+.spinner {
+  display: block; vertical-align: top; box-sizing: border-box; 
+  width: 2rem; height: 2rem; 
+  border-radius: 1rem; border: solid 0.5rem #eeeeee; border-top-color: #bbbbbb;
+  animation: spin 0.7s infinite linear;
+}</pre>
+			</li>
+		</ul>
+	</div>
+		
+</section>
+
+<!-- Scripts -->
+<script src="assets/css.js"></script>
+</body>
+</html>

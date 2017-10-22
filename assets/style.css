@@ -1,0 +1,111 @@
+/* Base */
+
+@import url('https://fonts.googleapis.com/css?family=Karla:400,700|Source+Code+Pro|Source+Sans+Pro:400,700');
+
+html { min-width: 320px; }
+
+body { font-family: 'Karla', sans-serif; font-size: 16px; color: #333333;}
+
+main { min-height: 30rem; }
+
+h1 { font-family: 'Karla', sans-serif; font-size: 2rem; font-weight: 700; line-height: 3rem; margin-bottom: 1.5rem; }
+h2 { font-family: 'Karla', sans-serif; font-size: 2rem; font-weight: 700; line-height: 3rem; margin-bottom: 1.5rem; }
+h3 { font-family: 'Karla', sans-serif; font-size: 1.5rem; font-weight: 700; line-height: 2rem; margin-bottom: 0;}
+h4 { }
+h5 { }
+h6 { }
+
+.container { width: 100%; max-width: 80rem; margin-left: auto; margin-right: auto; }
+.container-1-2 { width: 100%; max-width: 40rem; margin-left: auto; margin-right: auto; }
+.width-1 { width: 100%; }
+.width-1-2 { width: 100%; max-width: 40rem; }
+
+.side-g { padding-left: 1.5rem; padding-right: 1.5rem; }
+
+.padded-3 { padding-top: 4.5rem; padding-bottom: 4.5rem; }
+.padded-1 { padding-top: 1.5rem; padding-bottom: 1.5rem; }
+.padded-1-2 { padding-top: 0.75rem; padding-bottom: 0.75rem; }
+
+pre, .code { font-family: 'Source Code Pro'; font-size: 0.9rem; line-height: 1.35rem; color: #40476D; }
+
+@media screen and (min-width: 35.5em) {
+	.side-g { padding-left: 3rem; padding-right: 3rem; }
+}
+@media screen and (min-width: 48em) {
+
+	h1 { font-size: 4.5rem; line-height: 4.5rem; }
+	h2 { font-size: 4.5rem; line-height: 4.5rem; }
+	h2 { font-size: 2.5rem; line-height: 3rem; }
+	.width-1 { max-width: 80vw; }
+	
+}
+@media screen and (min-width: 48em) {
+	.width-1 { max-width: 66vw; }
+}
+/* Colors */
+
+.red { background-color: #F0544F; color: white; }
+.text-red { color: #F0544F; }
+
+.pink  { background-color: #D81E5B; color: white; }
+.text-pink  { color: #D81E5B; }
+
+.purple { background-color: #6B2D5C; color: white; }
+.text-purple { color: #6B2D5C; }
+
+.blue { background-color: #40476D; color: white; }
+.text-blue { color: #40476D; }
+
+/* Animations */
+
+@keyframes spin { 
+  100% { transform: rotate(360deg);} 
+} 
+.spinner {
+  display: inline-block; width: 1.5rem; height: 1.5rem; vertical-align: top;
+  border-radius: 1rem; border: solid 0.4rem #eee; border-top-color: #bbb;
+  animation: spin 0.7s infinite linear;
+}
+
+/* Slides */
+
+.slide { 
+	width: 100vw; min-height: 600px; height: auto;
+	position: relative;
+	border-bottom: 5px solid #40476D;
+	background-color: #ffffff;
+}
+.slide-nav { 
+	width: 7rem; height: 3rem; margin-bottom: 1.5rem;
+}
+.slide-nav .prev-slide,
+.slide-nav .next-slide {
+	height: 2rem;	
+} 
+.tip-number {
+	width: 3rem; height: 3rem;
+	border: none; border-radius: 1.5rem;
+	font-weight: 700; font-size: 1.5rem; line-height: 3rem; text-align: center;
+}
+.tip-number .next-slide { color: #ffffff; }
+
+@media screen and (min-width: 48em) {
+	.slide { 		
+		min-height: 100vh;
+	}
+	.slide-nav { 
+		position: absolute; top: 1.5rem; left: 1.5rem; margin: 0;
+	}
+}
+@media screen and (min-width: 48em) and (min-height: 36em) {
+	.slide {
+		position: fixed; top: 0; left: 100%; transition: left 1s ease;	
+	}
+	.slide:first-child { 
+		background-color: #f6f6f6;
+		left: 0;
+	}
+	.slide:target {
+		left: 0;
+	}
+}
